@@ -7,16 +7,27 @@ In the text file, the tetronimos must be sent in in 4x4 boxes with hash signes r
 Example:
 
 ..#.
+
 ..#.
+
 ..#.
+
 ..#.
+
 
 .###
+
 ..#.
-....
+
 ....
 
 ....
+
+
+....
+
 ..#.
+
 ###.
+
 ....
