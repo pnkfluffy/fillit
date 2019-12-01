@@ -1,2 +1,21 @@
 # fillit
-The goal of this project is to arrange every Tetriminos with each others in order to make the smallest possible square. But in some cases, this square should contains holes when some given pieces won’t fit in perfectly with others. Even if they are embedded in a 4x4 square, each Tetrimino is defined by its minimal boundaries (their ’#’). The 12 remaining empty characters will be ignored for the Tetriminos assemble process. Tetriminos are ordered by they apparition order in the file. Among all the possible candidates for the smallest square, we only accept the one where Tetriminos is placed on their most upper-left position.
+This project is an exercise in recursion, optimization, and use of data structures. The goal is to construct a recursive algorithm that, given any text list of Tetronimos (Tetris pieces), will find and return the smallest square in which they can all fit.
+To use this project, download and run make in the directory. Run the program by piping a text file into the program using ./fillit [text file].
+
+In the text file, the tetronimos must be sent in in 4x4 boxes with hash signes representing blocks and periods represeiting the blank spaces and an empty line between each tetronimo.
+
+Example:
+..#.
+..#.
+..#.
+..#.
+
+.###
+..#.
+....
+....
+
+....
+..#.
+###.
+....
