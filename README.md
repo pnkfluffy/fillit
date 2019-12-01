@@ -5,6 +5,7 @@ To use this project, download and run make in the directory. Run the program by 
 In the text file, the tetronimos must be sent in in 4x4 boxes with hash signes representing blocks and periods represeiting the blank spaces and an empty line between each tetronimo.
 
 Example:
+
 ..#.
 ..#.
 ..#.
